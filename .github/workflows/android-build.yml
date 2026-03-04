@@ -25,11 +25,6 @@ jobs:
     - name: 授予gradlew执行权限
       run: chmod +x gradlew
 
-    - name: 设置Gradle Wrapper
-      run: |
-        gradle wrapper --gradle-version 8.2 --distribution-type bin
-        chmod +x gradlew
-
     - name: 编译Debug APK
       run: ./gradlew assembleDebug --stacktrace
 
