@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">小勋象棋</string>
+    <string name="new_game">新游戏</string>
+    <string name="undo">悔棋</string>
+    <string name="reset">重置</string>
+    <string name="red_turn">红方走棋</string>
+    <string name="black_turn">黑方走棋</string>
+    <string name="red_win">红方胜！</string>
+    <string name="black_win">黑方胜！</string>
+    <string name="invalid_move">无效移动</string>
+    <string name="check">将军！</string>
+    <string name="ai_thinking">AI思考中...</string>
+
+    <!-- AI难度 -->
+    <string-array name="difficulty_levels">
+        <item>简单</item>
+        <item>中等</item>
+        <item>困难</item>
+    </string-array>
+</resources>
